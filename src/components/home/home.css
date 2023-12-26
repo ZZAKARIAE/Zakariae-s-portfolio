@@ -37,17 +37,18 @@
   padding-left: 5.4rem;
   font-weight: var(--font-normal);
   margin-bottom: var(--mb-1);
+  
 }
 
 .home__subtitle::before {
   content: "";
   position: absolute;
-  width: 70px;
+  width: 20%;
   height: 1px;
   background-color: var(--text-color);
   left: 0;
   top: 1rem;
-}
+  }
 
 .home__description {
   max-width: 400px;

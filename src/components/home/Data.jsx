@@ -11,8 +11,7 @@ export const Data = () => {
       <h3 className="home__subtitle">Ingénieur en Data Science</h3>
 
       <p className="home__description">
-        Étudiant en Data Science à l'INSEA, je suis très
-        passionné et dévoué à mon travail.
+        Étudiant en Data Science à l'Institut National de Statistique et d'Economie Appliquée.
       </p>
 
       <a href="#contact " className="button button--flex">

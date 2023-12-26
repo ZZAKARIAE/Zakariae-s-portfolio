@@ -17,14 +17,10 @@ export const About = () => {
           <Info />
 
           <p className="about__description">
-            Je suis ZITANE Zakariae, étudiant en Data Science à l'Institut National ee Statistique et d'Economie Appliquée. 
-            Passionné  par l'intelligence artificielle, le machine learning et le deep learning. Je me spécialise
-            dans la construction de modèle pour résoudre des problèmes
-            complexes. Mon expérience couvre l'exploration, la préparation, la visualisation des données et la
-            création de modèles de Machine Learning. Je m'efforce de résoudre de
-            manière créative des défis liés aux données en générant des insights
-            utiles. Toujours à l'affût des dernières avancées, je suis motivé à
-            appliquer mes compétences polyvalentes à divers domaines.
+              Élève Ingénieur en 3eme année en Data Science à l'Institut National de Statistique et d'Economie Appliquée (INSEA), je suis passionné par l'intelligence artificielle, le machine learning et le deep learning. Je m’investis dans la conception/construction de modèles permettant de résoudre des problèmes
+              complexes. 
+              Au cours de mon parcours, j ai pu développer mes compétences allant de l’acquisition, l'exploration, la préparation, la visualisation des données jusqu’à la création de divers modèles, que ce soit pour la classification, la détection, les prévisions, NLP ou encore computer vision.
+              Toujours à l’affût des denières avancées, je suis motivé à faire valoir mes compétences polyvalentes dans divers domaines.
           </p>
 
           <a download="" href={CV} className="button button--flex">

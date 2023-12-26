@@ -86,7 +86,7 @@ const Qualifications = () => {
             <div className="qualifications__data">
               <div>
                 <h3 className="qualifications__title">
-                  Lycée La Préference - Meknès
+                  Lycée La Préference, Meknès
                 </h3>
                 <span className="qualifications__subtitle">
                   Baccalauréat Sciences Mathématiques - Option B
@@ -117,7 +117,7 @@ const Qualifications = () => {
                   Système de maintenance prédictive avec un modèle LSTM
                 </span>
                 <span className="qualifications__subtitle">
-                  Casablanca - Stage d'application
+                  Meknès - Stage d'application
                 </span>
                 <div className="qualifications__calender">
                   <i className="uil uil-calendar-alt"></i> July 2023 - September

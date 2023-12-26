@@ -4,6 +4,7 @@ import "./services.css";
 import projectImage1 from "../../assets/Me/project1.png";
 import projectImage2 from "../../assets/Me/project2.png";
 import projectImage3 from "../../assets/Me/project3.png";
+import projectImage4 from "../../assets/Me/project4.png";
 
 const Services = () => {
   const githubRepoUrl = "https://github.com/your-username/your-repo-name";
@@ -243,7 +244,86 @@ const Services = () => {
             </div>
           </div>
         </div>
+
+        <div className="services__content">
+          <div>
+            <img
+              src={projectImage4}
+              alt="Détection d'anomalies"
+              className="services__image"
+            />{" "}
+            <h3 className="services__title">
+              Détection des supermarchés utilisant le système de Display
+              <br />
+        
+            </h3>
+          </div>
+
+          <span className="services__button" onClick={() => toggleTab(3)}>
+            View More
+            <i className="uil uil-arrow-right services__button-icon"></i>
+          </span>
+
+          <div
+            className={
+              toggleState === 3
+                ? "services__modal active-modal"
+                : "services__modal"
+            }
+          >
+            <div className="services__modal-content">
+              <i
+                onClick={() => toggleTab(0)}
+                className="uil uil-times services__modal-close"
+              ></i>
+
+              <h3 className="services__modal-title">
+              Détection des supermarchés utilisant le système de Display
+              </h3>
+              <p className="services__modal-description grid">
+                Mise en œuvre d’un modèle Random Forest capable de détecter les enseignes qui utilisent un système de display pour la mise en oeuvre de leur produits.
+              </p>
+              <ul className="services__modal-services grid">
+
+              <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-info"></i>
+                  <p className="services__modal-info">
+                    Discrétisation des variables quantitatives continues
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-info"></i>
+                  <p className="services__modal-info">
+                    Encodage des variables catégorielles
+                  </p>
+                </li>
+
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-info"></i>
+                  <p className="services__modal-info">
+                    Python, Random Forest, Clustring supervisé, Arbres de décision
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <a
+                    href="https://github.com/ZZAKARIAE/Display_ENSEIGNE_PEDICTION"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <p className="services__modal-info">
+                      Project's GitHub repository
+                    </p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
+
     </section>
   );
 };
